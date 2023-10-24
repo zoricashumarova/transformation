@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- Link to Bootstrap CSS -->
+    <link
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <!-- 1. -->
+    <div id="wrapper" class="container">
+      <div class="section">
+        <p>This is a paragraph inside a nested div. *</p>
+      </div>
+    </div>
+    <!-- 2. -->
+    <ul id="nav" class="list">
+      <li>
+        <a href="#">List Item 1</a>
+        <ul class="second-level-nav">
+          <li><a href="#">Subitem 1 *</a></li>
+          <li><a href="#">Subitem 2 *</a></li>
+        </ul>
+      </li>
+      <li><a href="#">List Item 2</a></li>
+    </ul>
+    <!-- 3. -->
+    <table id="my_table" class="table">
+      <tr>
+        <td>
+          <div class="text_wrapper">
+            <p>Table Cell 1 *</p>
+          </div>
+        </td>
+        <td>
+          <div class="text_wrapper">
+            <p>Table Cell 2 *</p>
+          </div>
+        </td>
+      </tr>
+    </table>
+    <!-- 4. -->
+    <form id="main_form" class="form template_form">
+      <div>
+        <label for="username">Username: *</label>
+        <input type="text" id="username" name="username" />
+      </div>
+      <div>
+        <label for="password">Password: *</label>
+        <input type="password" id="password" name="password" />
+      </div>
+    </form>
+    <!-- 5. -->
+    <div class="header">
+      <h1>Main Heading</h1>
+      <div class="subheader wrapper">
+        <h2>Subheading 1</h2>
+        <div class="text_wrapper">
+          <h3>Sub-heading 1 *</h3>
+          <h4>Sub-heading 2</h4>
+        </div>
+      </div>
+    </div>
+    <!-- 6. -->
+    <article id="main_article" class="article">
+      <h1>Article Title</h1>
+      <div>
+        <p>Article content goes here.</p>
+        <div>
+          <h3>Comments</h3>
+          <ul class="comments">
+            <li>Comment 1 *</li>
+            <li>Comment 2 *</li>
+          </ul>
+        </div>
+        <div>Some notes section.</div>
+      </div>
+    </article>
+    <!-- 7. -->
+    <form class="main_form" class="nested-form">
+      <fieldset>
+        <legend>Personal Information</legend>
+        <label for="name">Name: *</label>
+        <input type="text" id="name" name="name" />
+      </fieldset>
+      <fieldset>
+        <legend>Contact Information</legend>
+        <label for="email">Email: *</label>
+        <input type="email" id="email" name="email" />
+      </fieldset>
+    </form>
+    <!-- 8. -->
+    <dl id="main_list" class="definition-list list">
+      <dt>Term 1</dt>
+      <dd>Definition 1</dd>
+      <dt>Term 2</dt>
+      <dd>Definition 2</dd>
+    </dl>
+    <!-- 9. -->
+    <div id="main_section" class="container wrapper">
+      <span class="highlight">
+        <div class="nested-div">
+          <p>This is a nested paragraph inside a span and a div. *</p>
+        </div>
+      </span>
+    </div>
+    <!-- 10. -->
+    <article id="main_article" class="main-article">
+      <h1>Main Article</h1>
+      <section>
+        <h2>Section 1</h2>
+        <p>Content of Section 1.</p>
+      </section>
+      <section>
+        <h2>Section 2</h2>
+        <article>
+          <h3>Sub-article</h3>
+          <p>Content of the sub-article. *</p>
+        </article>
+      </section>
+    </article>
+    <!-- Bootsrap classes transformation to pure CSS and vv -->
+    <!-- 1. -->
+    <div class="p-3 mb-2 bg-primary text-white">
+      This is a Bootstrap box model example.
+    </div>
+    <!-- 2. -->
+    <div class="m-3 p-4 bg-success text-white">
+      This is a Bootstrap margin and padding example.
+    </div>
+    <!-- 3. -->
+    <div class="border border-danger p-3 mb-2 bg-light text-danger">
+      This is a Bootstrap border example.
+    </div>
+    <!-- 4. -->
+    <div class="p-3 mb-2 bg-primary text-white">
+      This is a Bootstrap box model example.
+    </div>
+    <!-- 5. -->
+    <div class="p-4 bg-success text-white">
+      This is a Bootstrap margin and padding example.
+    </div>
+    <!-- 6. -->
+    <div class="border border-danger p-3 mb-2 bg-light text-danger">
+      This is a Bootstrap border example.
+    </div>
+  </body>
+</html>

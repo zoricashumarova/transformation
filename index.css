@@ -1,0 +1,21 @@
+.p-3.mb-2.bg-primary.text-white {
+  padding: 1rem;
+  margin-bottom: 0.5rem;
+  background-color: #007bff;
+  color: #fff;
+}
+
+.m-3.p-4.bg-success.text-white {
+  margin: 1rem;
+  padding: 1.5rem;
+  background-color: #22bb33;
+  color: #fff;
+}
+
+.border.border-danger.p-3.mb-2.bg-light.text-danger {
+  border: 1px solid #bb2124;
+  padding: 1rem;
+  margin-bottom: 0.5rem;
+  background-color: aliceblue;
+  color: #bb2124;
+}
